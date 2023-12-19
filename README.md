@@ -41,9 +41,13 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
 				
     - `ResNet.ipynb` : executable file implementing a Residual Neural Network used to classify the different labels window by window, leading the best results from the others models
 	
-    - `SVM_RF.ipynb` : executable file implementing
+    - `SVM.ipynb` : executable file implementing SVM
+    
+    - `RF.ipynb` : executable file implementing Random Forest
+    
+    - `window_creation.ipynb` : executable file creating the windowed data from time series data. This data is saved in the data folder.
 
-    - `pipeline.ipynb` : executable file which reproduces our best score on AICrowd
+    - `pipeline.ipynb` : file containing....
 
     - `test.ipynb` : folder containing all the data
 
