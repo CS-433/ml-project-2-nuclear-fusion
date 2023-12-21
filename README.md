@@ -43,6 +43,8 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
     - `SVM.ipynb` : executable file implementing SVM
     
     - `RF.ipynb` : executable file implementing Random Forest
+      
+    - `scaler.pkl` : normalizer used in the ResNet to pre-process the data 
     
     - `window_creation.ipynb` : executable file creating the windowed data from time series data. This data is saved in the data folder.
 
