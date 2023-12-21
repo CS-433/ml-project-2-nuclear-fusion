@@ -54,7 +54,8 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
 
 
 ## Instructions to run :
-Python version : 3.11.5 \\
+Python version : 3.11.5 
+
 Before running the files you can use "pip install -r requirements.txt" in your python environnement to install the required librairies for this project.
 
 To try out a model you can run any `.ipynb` model file with the presence of the `data` folder and `scaler.pkl` file. The models used for the joint-model are 'NN_window.ipynb' to form windows and then `ResNet.ipynb` to predict their labels. You can run them separately to observe their accuracy, and then run `pipeline.ipynb` to see how the pipeline works in details.
