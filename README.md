@@ -18,7 +18,6 @@ The aim of the project is to predict minor and major disruptions based on person
 
 We then select the most performing one. The performance is measured by the F1 score which is a good perfomance value for imbalanced data.
 In our case the data is unbalanced over the plasma events : 899 time-series windows of 20 datapoints; 642 for no-event label,  207 for minor events and 50 for major events.
-For the windows of the events we divide each of the 
 The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Classifier to classify theses windows.
 
 ## Structure of Repository :
