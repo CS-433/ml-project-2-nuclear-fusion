@@ -52,6 +52,7 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
 
 
 ## Instructions to run :
+Python version : 3.11.5 
 
 Before running the files you can use "pip install -r requirements.txt" in your python environnement to install the required librairies for this project.
 
