@@ -50,8 +50,6 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
 
     - `pipeline.ipynb` : file containing the pipeline showing the process for predicting labels for a raw experiment, implementing in a first part the 'NN_window' to form the differents windows, and then apply the ResNet to predict the labels from theses.
 
-    - `test.ipynb` : folder containing all the data
-
 
 ## Instructions to run :
 Python version : 3.11.5 
