@@ -27,13 +27,13 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
 
 - `data` folder : contains all the data needed to run the code, the raw data from the experiments as well as the windows centered on the events given
 
-- `models` : contains 2 saved weights from the ResNet and NN models to avoid to train the model again
+- `models` : contains models and saved weights from the ResNet and NN models to avoid to train the model again
 
-- `code` : contains all the executable files to run the code 
+- `code` folder: contains all the executable files to run the code 
 
     - `GMM.ipynb` : executable file that reproduces our implementation of a Gaussian Mixture Model (GMM), an unsupervised probabilistic model 
 
-    - `NN_general.ipynb` : executable file which reproduces our best score on AICrowd
+    - `NN_general.ipynb` : executable file implementing the neural network for the basic Neural Network for classification
 
     - `NN_window.ipynb` : executable file that helps forming the windows thanks to the use of a tuned Neural Network, with label 0s and 1s
 
@@ -47,11 +47,11 @@ The best run we achieved a weighted 0.9684 F1 score using ResNet Architecture Cl
     
     - `window_creation.ipynb` : executable file creating the windowed data from time series data. This data is saved in the data folder.
 
-    - `pipeline.ipynb` : file containing....
+    - `pipeline.ipynb` : file containing the pipeline showing the process for predicting labels for a raw experiment, implementing in a first part the 'NN_window' to form the differents windows, and then apply the ResNet to predict the labels from theses.
 
     - `test.ipynb` : folder containing all the data
 
 
 ## Instructions to run :
 
-To reproduce our best score it is only needed to run the file `run.ipynb` with the presence of the `data` folder. The prediction will be saved in a file named `ridge_reg.csv` under the folder `data`.
+To try out a model you can run any `.ipynb` model file with the presence of the `data` folder. The models used for the joint-model are 'NN_window.ipynb' to form windows and then `ResNet.ipynb` to predict their labels. You can run them separately to observe their accuracy, and then run `pipeline.ipynb` to see how the pipeline works in details.
