@@ -3,6 +3,7 @@
 # Machine Learning Project 2 :  'Characterization and automatic differentiation between minor and major disruptions'
 
 This is part of the Project 2 of the CS433-Machine Learning course given at the EPFL Fall 2023.
+Note: It is important to mention that we received the project data approximately 17 days following the official start date, which significantly reduced the amount of time available to us.
 
 ## Team NUCLEAR-FUSION : 
 - Kaan Uçar
